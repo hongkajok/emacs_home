@@ -1,6 +1,8 @@
 (tool-bar-mode -1)
 (menu-bar-mode 1)
 
+(set-frame-font "Red Hat Mono-10" nil t)
+
 ;; buffer menu will display in current buffer window
 (global-set-key "\C-x\C-b" 'buffer-menu)
 
